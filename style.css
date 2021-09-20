@@ -6,9 +6,20 @@
     --lightBlueColor: #3498db;
     --darkBlueColor: #2980b9;
     --lighGreenColor: #1abc9c;
-    --darkGreenColor : #16a085;
-    --lightGrayColor : #ccc;
-    --taskManagerColor :#dff9fb;
+    --darkGreenColor: #16a085;
+    --lightGrayColor: #ccc;
+    --taskManagerColor: #dff9fb;
     --lighRedColor: #e74c3c;
 }
 
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(SPOILER_sven-fischer-V7WkmXntA8M-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
