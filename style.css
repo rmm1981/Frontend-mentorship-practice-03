@@ -1,0 +1,14 @@
+@import "reset.css";
+
+:root {
+    --darkColor: #515151;
+    --lightColor: #fff;
+    --lightBlueColor: #3498db;
+    --darkBlueColor: #2980b9;
+    --lighGreenColor: #1abc9c;
+    --darkGreenColor : #16a085;
+    --lightGrayColor : #ccc;
+    --taskManagerColor :#dff9fb;
+    --lighRedColor: #e74c3c;
+}
+
