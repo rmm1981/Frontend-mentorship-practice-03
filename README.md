@@ -2,9 +2,9 @@
 
 main page
 
-This is  third practice in front-end-mentorship program by @dansalahi.
+This is  third practice in front-end-mentorship program by [@dansalahi](https://github.com/dansalahi).
 
 It is a sample main page of a travel agancy, 
 
 Authors
-@rmm1981
+- [@rmm1981](https://github.com/rmm1981)
