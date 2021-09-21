@@ -1,7 +1,7 @@
 @import "reset.css";
 
 :root {
-    --darkColor: #515151;
+    --darkColor: #8a8888;
     --lightColor: #fff;
     --lightBlueColor: #3498db;
     --darkBlueColor: #2980b9;
@@ -10,6 +10,8 @@
     --lightGrayColor: #ccc;
     --taskManagerColor: #dff9fb;
     --lighRedColor: #e74c3c;
+    --brounColor: #a14222;
+
 }
 
 .row {
@@ -17,9 +19,132 @@
     margin: 0 auto;
 }
 
+
 body {
     background-image: url(SPOILER_sven-fischer-V7WkmXntA8M-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* --------- Header -----------*/
+
+header {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 50px;
+    color: var(--lighGreenColor);
+}
+
+#account {
+    margin-top: 30px;
+    margin-right: 40px;
+    height: 30%;
+    width: auto;
+    padding: 5px 15px;
+    background-color: var(--lightColor);
+    color: var(--lighGreenColor);
+    border-radius: 15px;
+}
+
+#account-b {
+    color: var(--lighGreenColor);
+    background-color: var(--lightColor);
+    border: 0;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-bottom: 12px;
+
+}
+
+.fa-house-user {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: var(--brounColor);
+}
+
+/*--------------- main section-----------*/
+
+main {
+    height: 85%;
+}
+
+section {
+    background-color: var(--lightColor);
+    border: 0;
+    border-radius: 15px;
+    height: 25%;
+    width: 80%;
+    margin: 25% auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    margin: 0 10px;
+}
+
+.list {
+    list-style: none;
+    margin: 10% 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.select-css {
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+    color: var(--darkColor);
+    padding: 2px;
+
+}
+
+.border {
+    /*margin-left: 5px;*/
+}
+
+.list li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.date {
+    border: 0;
+    font-size: 18px;
+    color: var(--darkColor);
+    text-align: center;
+}
+
+.submit {
+    color: var(--lightColor);
+    background-color: var(--lighGreenColor);
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 8px;
+    margin: 0 10px;
+    width: 130px;
+    height: 40px;
 }

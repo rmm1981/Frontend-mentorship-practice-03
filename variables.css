@@ -1,10 +1,11 @@
-:root{
+:root {
     --darkColor: #515151;
     --lightColor: #fff;
     --lightBlueColor: #3498db;
     --darkBlueColor: #2980b9;
     --lighGreenColor: #1abc9c;
-    --darkGreenColor : #16a085;
-    --lightGrayColor : #ccc;
+    --darkGreenColor: #16a085;
+    --lightGrayColor: #ccc;
     --lighRedColor: #e74c3c;
+    --brounColor: #a14222;
 }

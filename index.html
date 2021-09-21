@@ -16,39 +16,70 @@
 
 <body>
 
-    <header class="row">
-
-        <h1>Travel With Us</h1>
-        <div class=acount-B>
-            <button>Account</button>
+    <header>
+        <div>
+            <h1>Travel With Us</h1>
+        </div> 
+        <div id="account">
+            <button id="account-b">Account</button>
+                
+            <i class="fas fa-house-user"></i>
         </div>
 
     </header>
 
     <main class="row">
 
-        <section calss=bigBox>
+        <section>
 
-        <div>
-            <select class="select-css" name="region" id="region">
-                <option value="" selected>Select a region</option selected>
-                <option value="">Search Engines</option>
-                <option value="">Advertisment</option>
-                <option value="">Other</option>
-            </select>
-        </div>
-        <div>
-            <label>Ckech in</label>
-            <input type="date" required>
-        </div>
-        <div>
-            <label>Ckech in</label >
-            <input type="date" required>
-        </div>
-        <div>
-            <button>Search</button>
-        </div>
+            <form method="post" action="#">
+                <div>
+                    <ul class="list">
+                        <li>
+                            <label>where you go ?</label >
+                        </li>
+                        <li>
+                            <select class="select-css" name="region" id="region">
+                                <option value="" selected>Select a region</option selected >
+                                <option value="">Africa</option>
+                                <option value="">America</option>
+                                <option value="">Asia</option>
+                                <option value=""> europa</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="border">
+                    <ul class="list">
+                        <li>
+                            <label>Ckech in</label>
+                        </li>
+                        <li>
+                            <input  class="date" type="text" id="check-out" placeholder="Add a date"
+                            onfocus="(this.type='date')"
+                            onblur="(this.type='text')"  required>
+                            
+                            <!--type="date" class="date" placeholder="add a date" -->
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="border" >
+                    <ul class="list">
+                        <li>
+                            <label>Ckech in</label >
+                        </li>
+                        <li>
+                            <input  class="date" type="text" id="check-out" placeholder="Add a date"
+                            onfocus="(this.type='date')"
+                            onblur="(this.type='text')"  required>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button type="submit" class="submit">Search</button>
+                </div>
+            </form>
         </section>
 
     </main>
